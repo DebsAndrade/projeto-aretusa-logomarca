@@ -8,28 +8,38 @@ h1 {
     margin: 0;
     margin-top: 200px;
     font-size: 80px;
-    background-color: aqua;
+    text-align: center;
 }
 
 h2 {
     color: #d6d2d2;
+    font-family: 'Tenor Sans', sans-serif;
     margin: 0;
+    margin-top: -35px;
     font-size: 30px;
-    background-color: yellow;
+    text-align: right;
+    text-shadow: 2px 2px 1px #aaa;
 }
 
-figure img {
-    max-width: 400px;
-    background-color: blue;
-    margin-left: 1px;
-    margin-right: 1px;
+main {
+    display: flex;
+    justify-content: center;
+}
+
+main section {
+    padding: 5px;
+    width: 615px;
+}
+
+main section figure {
     margin: 0;
+    display: flex;
+    justify-content: end;
 }
 
-h1,
-h2 {
-    display: list-item;
-    margin-left: auto;
-    margin-right: auto;
-    text-align: center;
+main section figure img {
+    max-width: 400px;
+    margin-top: -62px;
+    margin-right: -94px;
+    z-index: -1;
 }
